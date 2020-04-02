@@ -1,10 +1,49 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
+a:hover {
+  text-decoration: none;
+}
+a.active {
+  background-color: tomato;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.ml-5 {
+  margin-left: 10rem !important;
+}
+.listProduct {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #dacece;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.listProduct > h4 {
+  padding: 20px;
+  background-color: #22d470;
+  color: white;
+  margin-bottom: 0;
+}
+
+.listProduct .status .btn.f {
+  padding: 0 10px;
+  background-color: #ffb547;
+  color: white;
+} 
+
+.btn.t {
+  padding: 0 10px;
+  background-color: seagreen;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
